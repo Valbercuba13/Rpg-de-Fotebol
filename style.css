@@ -1,0 +1,22 @@
+#logo, #clube {
+    text-align: center;
+
+}
+
+#diretoria {
+    float: left;
+}
+
+#vestuario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#plantel {
+    float: left;
+    width: 50%;
+}
+
+th {
+    text-align: center;
+}

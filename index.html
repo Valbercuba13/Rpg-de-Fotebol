@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="interacoes.js"></script>
+
+</head>
+<body>
+
+<h1 id="clube">CLUBE ESPORTE FLORIDA</h1>
+
+    <div id="logo">
+        <img src="escudo.jpeg" alt="">
+    </div>
+
+    
+    <div id="diretoria" style="float: left;">         
+        <p>Treinador: <input type="text" id="treinador"></p>
+        <p>Estadio: <input type="text" id="estadio"></p>
+        <p>Patrocinio: <input type="text" id="patrocinio"></p>
+        <p>Caixa: R$ <input type="text" id="caixa" oninput="formatarMoeda(this)"></p>
+    </div>
+
+    <div id="vestuario" style="text-align: center; margin-top: 20px;">
+        <input type="radio" name="uniforme" id="homekit" onclick="mostrarImagem('kithome.jpeg')">
+        <label id="homeLabel" for="homekit" onmouseover="changeColor('homeLabel', 'red')" onmouseout="resetColor('homeLabel')">Home</label>
+
+        <input type="radio" name="uniforme" id="awaykit" onclick="mostrarImagem('kitaway.jpeg')">
+        <label id="awayLabel" for="awaykit" onmouseover="changeColor('awayLabel', 'yellow')" onmouseout="resetColor('awayLabel')">Away</label>
+
+        <img src="kithome.jpeg" alt="" id="imagemVestuario">
+
+    </div>
+
+    <div id="plantel" style="float: left; width: 50%;">
+        <!-- jogadores e atributos -->
+        <table>
+            <thead>
+
+                <tr>
+
+                <th>numshirt</th>
+                <th>playname</th>
+                <th>overal</th>
+                <th>goals</th>
+                <th>cards</th>
+                <th>contract</th>  
+                <th>wage</th>           
+                                
+            </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Mauro</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>2 years</td>
+                    <td>U$1000</td>
+                </tr>
+            </tbody>
+            
+
+        </table>
+
+        
+    </div>
+
+    
+
+    
+</body>
+</html>
